@@ -1,0 +1,13 @@
+diff -Naur asused-3.72/Whois/RipeWhois/RipeWhois.pm asused-3.72_whois_new_query_fix/Whois/RipeWhois/RipeWhois.pm
+--- asused-3.72/Whois/RipeWhois/RipeWhois.pm	2001-04-18 19:01:20.000000000 +0200
++++ asused-3.72_whois_new_query_fix/Whois/RipeWhois/RipeWhois.pm	2005-05-02 16:19:05.000000000 +0200
+@@ -133,6 +133,9 @@
+     my $self = shift;
+     # Filter out empty paramters
+     my @query = grep { /\S+/ } @_;
++
++    # Fix for new whois query defaults (2 May 2005) ZS.
++    unshift(@query, '-B', '-G');
+     
+     # Add keep-alive flag if necessary
+     if($self->{'KeepAlive'}) {
