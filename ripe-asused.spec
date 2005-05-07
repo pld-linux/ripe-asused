@@ -6,7 +6,7 @@ Release:	0.1
 License:	distributable
 Group:		Applications/Networking
 Source0:	ftp://ftp.ripe.net/tools/asused-%{version}.tar.gz
-# Source0-md5:	e6bf6cd019b2fd6e49409850b92c34ad
+# Source0-md5:	6821376705b9f9e080015dd9d1394161
 Patch0:		%{name}-newquery.patch
 BuildRequires:	perl >= 1:5.8.0
 BuildArch:	noarch
