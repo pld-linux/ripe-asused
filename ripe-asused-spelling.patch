@@ -6,7 +6,7 @@ diff -Naur asused-3.72/asused.PL asused-3.72_whois_new_query_fix/asused.PL
      unless($opt{'summary'}) {
          if($sWarning) {
 -            printf "\nPay attension on this WARNINGS:\n";
-+            printf "\nPay attention on this WARNINGS:\n";
++            printf "\nPay attention on this WARNING:\n";
              printf $sWarning;
          }
      }
