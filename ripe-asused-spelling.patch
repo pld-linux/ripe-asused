@@ -1,0 +1,12 @@
+diff -Naur asused-3.72/asused.PL asused-3.72_whois_new_query_fix/asused.PL
+--- asused-3.72/asused.PL	2003-10-07 17:46:23.000000000 +0200
++++ asused-3.72_whois_new_query_fix/asused.PL	2005-05-09 15:42:14.000000000 +0200
+@@ -1135,7 +1135,7 @@
+     # print warnings if any
+     unless($opt{'summary'}) {
+         if($sWarning) {
+-            printf "\nPay attension on this WARNINGS:\n";
++            printf "\nPay attention on this WARNINGS:\n";
+             printf $sWarning;
+         }
+     }
