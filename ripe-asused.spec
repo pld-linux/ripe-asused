@@ -48,7 +48,7 @@ pod2man asused.pod asused.1
 rm -rf $RPM_BUILD_ROOT
 
 %{__make} install \
-	DESTDIR=$RPM_BUILD_ROOT
+	DESTDIR=$RPM_BUILD_ROOT SITEPREFIX=%{_prefix}
 
 sed -i -e "s|asused.conf|%{_sysconfdir}/asused.conf|g" $RPM_BUILD_ROOT%{_bindir}/asused
 sed -i -e "s|-Iblib/lib||g" $RPM_BUILD_ROOT%{_bindir}/asused
