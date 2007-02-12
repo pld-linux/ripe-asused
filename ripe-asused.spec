@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	RIPE NCC Autonomous Systems Query
-Summary(pl):	Odpytywanie autonomicznych systemów RIPE NCC
+Summary(pl.UTF-8):   Odpytywanie autonomicznych systemÃ³w RIPE NCC
 Name:		ripe-asused
 Version:	3.72
 Release:	0.1
@@ -24,14 +24,14 @@ to perform more checks which use information that is private to their
 members, so the public distribution does not contain or require these
 modules.
 
-%description -l pl
-Asused to narzêdzie u¿ywane przez hostmasterów RIPE NCC do sprawdzania
-ró¿nych aspektów alokacji i przydzia³ów IP swoich cz³onków zgodnie z
-zapisami w bazie danych RIPE. Zosta³o udostêpnione cz³onkom, dziêki
-czemu oni tak¿e mog± sprawdzaæ swoje dane. Wewnêtrzne narzêdzie RIPE
-u¿ywa trochê wiêcej modu³ów do sprawdzania informacji prywatnych dla
-swoich cz³onków, wiêc publiczna dystrybucja nie zawiera albo nie
-wymaga tych modu³ów.
+%description -l pl.UTF-8
+Asused to narzÄ™dzie uÅ¼ywane przez hostmasterÃ³w RIPE NCC do sprawdzania
+rÃ³Å¼nych aspektÃ³w alokacji i przydziaÅ‚Ã³w IP swoich czÅ‚onkÃ³w zgodnie z
+zapisami w bazie danych RIPE. ZostaÅ‚o udostÄ™pnione czÅ‚onkom, dziÄ™ki
+czemu oni takÅ¼e mogÄ… sprawdzaÄ‡ swoje dane. WewnÄ™trzne narzÄ™dzie RIPE
+uÅ¼ywa trochÄ™ wiÄ™cej moduÅ‚Ã³w do sprawdzania informacji prywatnych dla
+swoich czÅ‚onkÃ³w, wiÄ™c publiczna dystrybucja nie zawiera albo nie
+wymaga tych moduÅ‚Ã³w.
 
 %prep
 %setup -q -n asused-%{version}
