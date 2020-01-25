@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.perl
 Summary:	RIPE NCC Autonomous Systems Query
 Summary(pl.UTF-8):	Odpytywanie autonomicznych systemów RIPE NCC
 Name:		ripe-asused
